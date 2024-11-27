@@ -9,4 +9,4 @@
 //sudo npm   install -g <packageName> (mac)
 
 
-//to install package use:  'npm init -y'
+//to install package use:  'npm init -y' (everything default)
