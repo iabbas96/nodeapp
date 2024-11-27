@@ -9,4 +9,11 @@
 //sudo npm   install -g <packageName> (mac)
 
 
-//to install package use:  'npm init -y' (everything default)
+//to install package use:  'npm init -y' (everything default )
+
+//using lodash package
+const _ =require('lodash')
+const items = [1,[2,[3,[4]]]]
+const newItems = _.flattenDeep(items)
+
+console.log(newItems)
